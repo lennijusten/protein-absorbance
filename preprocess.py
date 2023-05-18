@@ -9,7 +9,7 @@ files = ['Hem.csv', 'Chymo..csv', 'HSA.csv', 'Lys.csv', 'hum. IgG.csv', 'bov. Ig
 dfs = {}
 
 # Define new_wavelength outside the loop
-new_wavelength = np.arange(195, 300, 2)
+new_wavelength = np.arange(195, 301, 1)
 
 for file in files:
     path = os.path.join('raw-data', file)
