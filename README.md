@@ -25,7 +25,7 @@ The methodology used in this analysis is as follows:
 
 1. Data for six proteins was extracted from the Kreusch et al. (2003) paper using webplotdigitizer. The green rectangle seen in the plot was assumed to represent human IgG, as this was shown as a green cross in the legend.
 
-2. The raw data was preprocessed using `preprocess.py`. The data was sorted in ascending order based on wavelength, and the absorbance was calculated at rounded 1 nm intervals between 195 and 299 nm using linear interpolation.
+2. The raw data was preprocessed using `preprocess.py`. The data was sorted in ascending order based on wavelength, and the absorbance was calculated at rounded 1 nm intervals between 195 and 300 nm using linear interpolation.
 
 3. The `analysis.py` script was then used to calculate the mean and stdv of the absorbance across the six proteins at each wavelength.
 
