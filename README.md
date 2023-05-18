@@ -15,7 +15,7 @@ In this context, we use the law to calculate the absorption coefficient (ε) fro
 ## Repository Structure
 
 * `raw-data/`: Contains the raw CSV files extracted from the Kreusch et al. paper, one for each protein.
-* `processed-data/`: Contains the preprocessed CSV files with data sorted by wavelength and interpolated at 2 nm intervals.
+* `processed-data/`: Contains the preprocessed CSV files with data sorted by wavelength and interpolated at 1 nm intervals.
 * `preprocess.py`: Python script for sorting and interpolating the raw data.
 * `analysis.py`: Python script for calculating the mean and stdv absorption coefficients and for plotting the data.
 
