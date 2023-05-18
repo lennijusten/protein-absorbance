@@ -71,11 +71,13 @@ def plot_data(df):
 
     # Add labels and title
     plt.xlabel('Wavelength (nm)')
-    plt.ylabel('Absorption Coefficient (ml mg^-1 cm^-1)')
+    plt.ylabel('Absorption Coefficient (ml mg-1 cm-1)')
     plt.title('Mean Protein Absorption Coefficient')
 
     # Add a legend
     plt.legend()
+
+    plt.savefig('absorption-coefficient.png', dpi=300)
 
     # Show the plot
     plt.show()
