@@ -36,7 +36,7 @@ The methodology used in this analysis is as follows:
 ![Mean and Standard Deviation of Absorption Coefficient](absorption-coefficient.png)
 
 <p align="center">
-Figure 1: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen (Chymo.), bovine immunoglobulin-c (bov. IgG), horse hemoglobin (Hem), lysozyme (Lyso.), human immunoglobulin-c (hum. IgG), and human serum albumin (HSA). Data is derived from Kreusch et al. 2003.
+Figure 1: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. 2003.
 </p>
 
 ## References
