@@ -22,7 +22,7 @@ for file in files:
     # Reset the index after sorting
     df = df.reset_index(drop=True)
 
-    # Interpolate at 2 nm intervals
+    # Interpolate at 1 nm intervals
     new_df = pd.DataFrame({'Wavelength': new_wavelength})
     new_df['Absorption'] = np.interp(new_wavelength, df['Wavelength'], df['Absorption'])
     new_df.to_csv(f'processed-data/{file}', index=False)
