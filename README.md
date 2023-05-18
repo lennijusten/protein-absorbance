@@ -23,7 +23,7 @@ In this context, we use the law to calculate the absorption coefficient (ε) fro
 
 The methodology used in this analysis is as follows:
 
-1. Data for six proteins was extracted from the Kreusch et al. paper using webplotdigitizer. The green rectangle seen in the plot was assumed to represent human IgG, as this was shown as a green cross in the legend.
+1. Data for six proteins was extracted from the Kreusch et al. (2003) paper using webplotdigitizer. The green rectangle seen in the plot was assumed to represent human IgG, as this was shown as a green cross in the legend.
 
 2. The raw data was preprocessed using `preprocess.py`. The data was sorted in ascending order based on wavelength, and the absorbance was calculated at rounded 2nm intervals between 195 and 299 nm using linear interpolation.
 
@@ -31,9 +31,16 @@ The methodology used in this analysis is as follows:
 
 4. Finally, the mean and stdv absorption coefficients were calculated using the Beer-Lambert law, with a path length of 0.341 cm and a concentration of 0.05 mg ml-1.
 
+## Results
+
+![Mean and Standard Deviation of Absorption Coefficient](absorption-coefficient.png)
+
+<p align="center">
+Figure 1: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen (Chymo.), bovine immunoglobulin-c (bov. IgG), horse hemoglobin (Hem), lysozyme (Lyso.), human immunoglobulin-c (hum. IgG), and human serum albumin (HSA). Data is derived from Kreusch et al. 2003.
+</p>
+
 ## References
 
-Kreusch et al. "UV measurements in microplates suitable for high-throughput protein determination" (2003)
+Kreusch, S., Schwedler, S., Tautkus, B., Cumme, G. A. & Horn, A. UV measurements in microplates suitable for high-throughput protein determination. Analytical Biochemistry **313**, 208–215 (2003).
 
-Buonanno et al. "207-nm UV Light - A Promising Tool for Safe Low-Cost Reduction of Surgical Site Infections. I: In Vitro Studies" (2013)
 
