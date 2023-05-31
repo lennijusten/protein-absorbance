@@ -1,6 +1,6 @@
 # Protein Absorption Coefficient Analysis
 
-This repository contains data and Python scripts used for the calculation and plotting of mean and standard deviation (stdv) absorption coefficients of six proteins.
+This repository contains data and Python scripts used for the calculation and plotting of mean and standard deviation absorption coefficients of six proteins.
 
 ## Background
 
@@ -10,7 +10,7 @@ The peak in protein absorption in the far-UVC range is largely attributed to the
 
 To standardize the comparison of absorptions across different molecules and experimental setups, we use the Beer-Lambert law. The Beer-Lambert law describes how the absorption of light by a substance is related to the properties of the substance and the light. Specifically, it states that the absorbance (A) is equal to the product of a substance's molar absorptivity (ε), its concentration (c), and the path length of the light (l): A = εcl.
 
-In this context, we use the law to calculate the absorption coefficient (ε) from the measured absorbance, given the concentration of the protein and the path length of the light. This allows us to compare the inherent absorption properties of different proteins independently of their concentration or the specific experimental setup.
+In this context, we use the law to calculate the absorption coefficient (ε) from the measured absorbance, given the concentration of the protein and the path length of the light. 
 
 ## Repository Structure
 
