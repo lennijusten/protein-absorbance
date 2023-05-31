@@ -51,6 +51,7 @@ def calculate_absorption_coefficient(df):
     return df
 
 combined_df = calculate_absorption_coefficient(combined_df)
+combined_df.to_csv('data-table.csv')
 
 
 def plot_data(df):
